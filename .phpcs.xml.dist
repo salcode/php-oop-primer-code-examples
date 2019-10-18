@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ruleset>
+	<!-- Exclude the Composer Vendor directory. -->
+	<exclude-pattern>/vendor/*</exclude-pattern>
+
+	<rule ref="PSR12" />
+</ruleset>

@@ -1,0 +1,19 @@
+{
+    "name": "salcode/boltaction",
+    "description": "Object Oriented Representation of Bolt Action table top gaming pieces.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "license": "apache-2.0",
+    "authors": [
+        {
+            "name": "Sal Ferrarello",
+            "email": "sal@ironcodestudio.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"salcode\\BoltAction\\": "src/"}
+    }
+}
